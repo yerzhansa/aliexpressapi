@@ -1,0 +1,38 @@
+{
+    "name": "jansagat/aliexpressapi",
+    "type": "library",
+    "description": "Get products from Aliexpress with Aliexpress API",
+    "keywords": ["jansagat", "aliexpress-affiliate-api", "aliexpress", "aliexpress affiliate", "aliexpress api"],
+    "homepage": "https://github.com/jansagat/aliexpressapi",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yerzhan Sagyt",
+            "email": "erzhan.sagyt@gmail.com",
+            "homepage": "https://github.com/jansagat/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~5.6|~7.0",
+        "guzzlehttp/guzzle": "~6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : ">=5.4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "AliExpressApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AliExpressApi\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
